@@ -11,5 +11,10 @@ export class WebActions {
         }
     }
 
+    public async jsBasedClick(element?) {
+        await browser.execute('arguments[0].click();', await element)
+    }
+
+
 }
 export default new WebActions();
