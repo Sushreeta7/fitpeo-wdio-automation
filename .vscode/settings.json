@@ -1,0 +1,10 @@
+{
+  "cucumberautocomplete.steps": [
+    "test/step-definitions/*.ts",
+  ],
+  "cucumberautocomplete.features": [
+    "/test/features/*.feature"
+  ],
+  "cucumberautocomplete.syncfeatures": true,
+  
+}
